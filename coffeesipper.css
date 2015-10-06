@@ -1,0 +1,200 @@
+@keyframes changefont {
+	from {font-size: 8pt;}
+	to {font-size: 12pt;}
+}
+
+@keyframes slidein {
+	from { 
+		margin-left: 100%
+		width: 300%
+	}
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+
+
+@keyframes bounce {
+	0%{ -moz-transform:scale(0); opacity:0;}
+	50%{ -moz-transform:scale(1.3); opacity:0.4; }
+	75%{ -moz-transform:scale(0.9); opacity:0.7;}
+	100%{ -moz-transform:scale(1); opacity:1;}
+}
+
+body {
+ 	font-style: verdana;
+ 	color: white;
+ 	
+ 	
+ 
+}
+
+#achievements {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 700px;
+	background-color: #61380B;
+}
+
+#coffee {
+	position: fixed;
+	top: 0px;
+	left: 290px;
+	width: 540pt;
+	height: 600pt;
+	background-image: url('bg1.jpg');
+}
+
+#coffee img:hover { 
+	height: 300px; 
+	width: 300px;
+	margin-left: -5px;
+	margin-top: -5px;
+}
+
+#cup {
+	height: 200pt;
+	width: 200pt;
+	position: fixed;
+	top: 90px;
+	left: 450px;
+	text-align: center;
+	padding: 20px;	
+	z-index: 99;
+	-webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease;
+}
+
+
+
+#sips_taken_banner {
+	background-color: #336600;
+	opacity: 0.6;
+	padding-top: 15px;
+	width: 400px;
+	height: 40px;
+	position: fixed;
+	top: 140px;
+	left: 408px;
+	margin: 0px;
+	
+	font-size: 20px;
+	z-index: 100;
+	text-align: center;
+}
+
+
+#white {
+	position: fixed;
+	top: 60px;
+	left: 400px;
+	width: 300pt;
+	height: 260pt;
+	background-color: white;
+	z-index: 1;
+	border: 8px solid #6F4E37;
+	border-radius: 20px;
+}
+
+
+div {
+	float: left;
+}
+
+
+#achievements {
+	width: 30%;
+}
+
+#store {
+	position: fixed;
+	top: 0px;
+	left: 933px;
+	width: 330px;
+	height: 700px;
+	background-color: #61380B;
+}
+#storename {
+	width: 33%;
+	#animation: changefont 3s infinite alternate;
+
+}
+
+.disabled {
+	opacity: .5;
+}
+
+.achievement img{
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+}
+
+li:hover:after {
+	cursor: pointer; 
+	
+	width: 220px;
+	height: 60px;
+	position: fixed;
+	background: black;
+	color: white;
+	z-index: 200;
+	border: 3px solid #8A4B08;
+	border-radius: 15px;
+	left: 760px;
+	padding: 5px;
+
+}
+
+#straws:hover:after {
+	content: "message";
+	top: 130px;
+}
+
+#kids:hover:after {
+	content: "message";
+	top: 220px;
+}
+#hcs:hover:after {
+	content: "message";
+	top: 310px;
+}
+
+#mcs:hover:after {
+	content: "message";
+	top: 400px;
+}
+
+#cows:hover:after {
+	content: "message";
+	top: 490px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+li {
+	width: 185pt;
+	padding-left: 5px;
+	padding-right: 30px;
+	padding-top: 15px;
+	background-color: #8A4B08;
+ 	animation: bounce 3s;
+ 	margin: 20px;
+ 	border-radius: 15px;
+}
+
+li img {
+	border-radius: 15px;
+}
+
+
+
+.listimage {
+	width: 50px;
+	height: 50px;
+}
